@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  background: gray;
+  min-height: 100vh; /*vh é mais responsivo que px*/ /*vh é a altura de visualização do usuário*/
+  display: flex;
+  gap: 0px 15px; /*gap: espaçamento entre os itens. 0px(coluna) 0px(row)*/
+  justify-content: center;
+  align-items: center; /*posição na vertical*/
+  flex-wrap: wrap; /*wrap: quebra*/
+}
+
+.item {
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
